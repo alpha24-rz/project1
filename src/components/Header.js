@@ -50,7 +50,7 @@ export default function Header() {
                 href="#"
                 className={`${
                   isScrolled ? "text-[#F72C5B]" : "text-white"
-                } hover:text-pink-200`}
+                } hover:text-pink-200 transition-all duration-300 underline-offset-4 hover:underline`}
               >
                 Home
               </a>
@@ -60,7 +60,7 @@ export default function Header() {
                 href="#"
                 className={`${
                   isScrolled ? "text-[#F72C5B]" : "text-white"
-                } hover:text-pink-200`}
+                } hover:text-pink-200 transition-all duration-300 underline-offset-4 hover:underline`}
               >
                 About
               </a>
@@ -70,7 +70,7 @@ export default function Header() {
                 href="#"
                 className={`${
                   isScrolled ? "text-[#F72C5B]" : "text-white"
-                } hover:text-pink-200`}
+                } hover:text-pink-200 transition-all duration-300 underline-offset-4 hover:underline`}
               >
                 Services
               </a>
@@ -80,7 +80,7 @@ export default function Header() {
                 href="#"
                 className={`${
                   isScrolled ? "text-[#F72C5B]" : "text-white"
-                } hover:text-pink-200`}
+                } hover:text-pink-200 transition-all duration-300 underline-offset-4 hover:underline`}
               >
                 Contact
               </a>
